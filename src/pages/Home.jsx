@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import UpsideDownParticles from '../components/UpsideDownParticles';
+import hackathenaSvg from '../assets/hackathena.svg';
 
 // ─── Vine corner decorations ───────────────────────────────────────────────
 const VineTopLeft = () => (
@@ -301,7 +302,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo / brand mark */}
           <img
-            src="/src/assets/hackathena.svg"
+            src={hackathenaSvg}
             alt="Hackathena"
             className="h-14 w-14"
             style={{ display: 'block' }}
